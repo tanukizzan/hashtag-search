@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HashTag search</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.png">
+  <link rel="icon" href="./images/favicon.png">
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://app.tanukizzan.com/hashtag-search" />
+  <meta property="og:title" content="HashTag search" />
+  <meta property="og:description" content="いろいろなサイトで検索するのに便利なサイトです。" />
+  <meta property="og:image" content="https://app.tanukizzan.com/hashtag-search/images/hashtag.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <img src="./images/hashtag.png" alt="hashtag search">
+
+    <form class="search-area" onsubmit="return false;">
+      <input type="search" name="search" id="window" autofocus>
+      <i class="fas fa-hashtag"></i>
+      <i class="fas fa-microphone" id="speak-button"></i>
+    </form>
+
+    <div class="button-area">
+      <button id="twitter">Twitter</button>
+      <button id="instagram">Instagram</button>
+      <button id="facebook">Facebook</button>
+      <button id="note">note</button>
+      <button id="random">I'm Feeling Lucky</button>
+    </div>
+  </main>
+
+  <footer>
+    <a href="https://app.tanukizzan.com/gaty-search/"><i class="fas fa-search"></i>GATY</a>
+    <a href="https://app.tanukizzan.com/howto-search/"><i class="fas fa-search"></i>HowTo</a>
+    <a href="https://app.tanukizzan.com/simple-search/"><i class="fas fa-search"></i>Simple</a>
+    <a href="https://app.tanukizzan.com">Other Apps</a>
+    <a href="https://github.com/tanukizzan/hashtag-search/">GitHub</a>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
