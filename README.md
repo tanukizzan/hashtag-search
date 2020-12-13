@@ -21,10 +21,12 @@ I'm Feeling Luckyボタンを押すとこの4つのサイトからランダム�
 Google Chrome標準の検索履歴機能に対応しています。  
 ここでは、誤字のまま検索した時や他のサイトで入力した履歴が残っている時など、検索履歴を削除したい場合の対処法を載せておきます。
 
-マウスのカーソルを消したい検索履歴の上に置き、  
-Windowsでは Shift + Delete  
-Macでは Shift + Fn + Delete  
-スマートフォンでは長押し  
+マウスのカーソルを消したい検索履歴の上に置き、
+
+- Windowsでは `Shift` + `Delete`
+- Macでは `Shift` + `Fn` + `Delete`
+- スマートフォンでは長押し
+
 で削除できます。
 
 すべての検索履歴を削除したい場合は、設定→プライバシーとセキュリティ→閲覧履歴データの削除から、詳細設定で「自動入力フォームのデータ」のみ削除してください。**ただし、この場合他のサイトの入力履歴も含めて削除されます。**
@@ -39,4 +41,4 @@ Macでは Shift + Fn + Delete
 - [GATY search](https://app.tanukizzan.com/gaty-search/)
 - [HowTo search](https://app.tanukizzan.com/howto-search/)
 - [Simple search](https://app.tanukizzan.com/simple-search/)
-- [HasgTag search](https://app.tanukizzan.com/hashtag-search/)
+- [HashTag search](https://app.tanukizzan.com/hashtag-search/)
