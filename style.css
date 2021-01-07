@@ -13,14 +13,14 @@ body {
 main {
   width: 90%;
   max-width: 40em;
-  margin: auto;
+  margin: 1em auto;
   flex: 1;
 }
 
 /* search ロゴ */
 img {
   display: block;
-  margin: 8em auto 3em auto;
+  margin: 7em auto 3em auto;
 }
 
 /* 検索窓 */
@@ -107,6 +107,15 @@ form input[type="search"] {-webkit-appearance:none;}
   background: linear-gradient(45deg, #3b5998, #1da1f2, #41C9B4, #427eff, #f13f79);
 }
 
+/* ultimateリンク */
+.red {color: #ff0000;}
+main p {text-align: center;}
+main p a {
+  text-decoration: none;
+  color: #222;
+}
+main p a:hover {opacity: 0.8;}
+
 /* フッター */
 footer {
   line-height: none;
@@ -135,12 +144,10 @@ footer a:hover .fas {color: #ff0000;}
 /* スマホ用CSS */
 @media screen and (max-width: 480px) {
   img {
-    margin-top: 4em;
+    margin-top: 3em;
     width: 90%;
   }
-  .button-area {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .button-area {grid-template-columns: repeat(2, 1fr);}
   .button-area #random {
     grid-column: 1/3;
     grid-row: 3/4;
@@ -156,5 +163,5 @@ footer a:hover .fas {color: #ff0000;}
     background-color: #282828;
     outline-color: #333;
   }
-  footer a {color: #fff;}
+  main p a, footer a {color: #fff;}
 }
